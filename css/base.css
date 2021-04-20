@@ -2,6 +2,10 @@ html {
     font-size: 16px;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header {
     font-size: 1rem;
     background: #bbb;
@@ -49,4 +53,9 @@ html {
     color: #fff;
     font-size: 0.8em;
     padding: 10px 0 0 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
 }

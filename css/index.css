@@ -1,0 +1,28 @@
+.main {
+    font-size: 1rem;
+}
+
+.inner-barbershop {
+    width: 100%;
+}
+
+.about-barbershop {
+    padding: 40px 0;
+}
+
+.about-barbershop > div > h2 {
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 2em;
+}
+
+.about-barbershop > div > p {
+    padding: 0 0 15px;
+    font-size: 1em;
+}
+
+.about-barbershop > div > img {
+    height: 130px;
+    float: left;
+    margin: 0 20px 0 0;
+}
