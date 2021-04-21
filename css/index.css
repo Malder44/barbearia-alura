@@ -2,23 +2,25 @@
     font-size: 1rem;
 }
 
+.main h1, .main h2, .main h3, .localization p {
+    text-align: center;
+}
+
 .inner-barbershop {
     width: 100%;
 }
 
-.about-barbershop {
+.about-barbershop, .localization {
     padding: 40px 0;
 }
 
-.about-barbershop > div > h2 {
-    text-align: center;
-    padding: 0 0 30px;
-    font-size: 2em;
+.about-barbershop > div > h1 {
+    padding: 0 0 40px;
+    font-size: 2.6em;
 }
 
 .about-barbershop > div > p {
     padding: 0 0 15px;
-    font-size: 1em;
 }
 
 .about-barbershop > div > img {
@@ -26,3 +28,17 @@
     float: left;
     margin: 0 20px 0 0;
 }
+
+.localization {
+    background: linear-gradient(#fff, #777);
+}
+
+.localization > div > h2 {
+    padding: 0 0 30px;
+    font-size: 2em;
+}
+
+.localization > div > p {
+    padding: 0 0 25px;
+}
+
