@@ -2,7 +2,11 @@
     font-size: 1rem;
 }
 
-.main h1, .main h2, .main h3, .localization p {
+h1, h2, h3 {
+    padding: 0 0 40px;
+}
+
+h1, h2, h3, .localization p {
     text-align: center;
 }
 
@@ -10,12 +14,11 @@
     width: 100%;
 }
 
-.about-barbershop, .localization {
-    padding: 40px 0;
+.about-barbershop, .localization, .benefits {
+    padding: 50px 0;
 }
 
 .about-barbershop > div > h1 {
-    padding: 0 0 40px;
     font-size: 2.6em;
 }
 
@@ -34,11 +37,50 @@
 }
 
 .localization > div > h2 {
-    padding: 0 0 30px;
     font-size: 2em;
 }
 
 .localization > div > p {
-    padding: 0 0 25px;
+    padding: 0 0 30px;
 }
 
+.benefits {
+    background: linear-gradient(#777, #666);
+}
+
+.benefits > div > h3 {
+    font-size: 1.8em;
+}
+
+.benefits-list, .benefits > div > img  {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.benefits-list {
+    width: 30%;
+    margin: 0 0 0 20%;
+}
+
+.benefits-list:first-line {
+    font-weight: bold;
+}
+
+.benefits-list li {
+    line-height: 1.8em;
+}
+
+.benefits-list li:before {
+    content: '\2605';
+}
+
+.benefits > div > img {
+    width: 40%;
+    margin: 0 10% 0 0;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
+
+.benefits > div > img:hover {
+    opacity: 0.35;
+}
