@@ -14,7 +14,7 @@ h1, h2, h3, .localization p {
     width: 100%;
 }
 
-.about-barbershop, .localization, .benefits {
+.about-barbershop, .localization, .benefits, .video {
     padding: 50px 0;
 }
 
@@ -59,7 +59,7 @@ h1, h2, h3, .localization p {
 
 .benefits-list {
     width: 30%;
-    margin: 0 0 0 20%;
+    margin: 0 5% 0 15%;
 }
 
 .benefits-list:first-line {
@@ -83,4 +83,12 @@ h1, h2, h3, .localization p {
 
 .benefits > div > img:hover {
     opacity: 0.35;
+}
+
+.video {
+    background: linear-gradient(#666, #555);
+}
+
+.video > div > iframe {
+    margin: 0 20%;
 }
