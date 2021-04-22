@@ -1,0 +1,41 @@
+.main {
+    font-size: 1rem;
+}
+
+.products h2, .products p {
+    text-align: center;
+}
+
+.products-list {
+    padding: 50px 0;
+}
+
+.products-list-itens {
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 30px 14px;
+    margin: 0 1.5%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.products-list-itens:hover {
+    transform: scale(1.05);
+    border-color: #994d00;
+    color: #994d00;
+}
+
+.products-list-itens > h2 {
+    font-size: 1.9em;
+    padding: 0 0 10px;
+}
+
+.products-list-itens > p {
+    font-size: 1.3em;
+}
+
+.products-list-itens > img + p {
+    padding: 0 0 20px;
+    height: 80px;
+}
