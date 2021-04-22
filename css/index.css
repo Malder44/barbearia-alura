@@ -81,7 +81,7 @@ h1, h2, h3, .localization p {
     transition: 0.5s;
 }
 
-.benefits > div > img:hover {
+#benefits-img:hover {
     opacity: 0.35;
 }
 
