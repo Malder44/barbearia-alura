@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-br">
     
     <head>
         
@@ -32,14 +32,92 @@
 
                 <fieldset class="text-inputs">
                     <div class="container">
-                        <label for="form-name">Nome e sobrenome<input id="form-name" type="text" required></label>
-                        <label for="form-email">Email<input id="form-email" type="email" placeholder="seuemail@dominio" required></label>
-                        <label for="form-phone">Telefone<input id="form-phone" type="tel" placeholder="(XX) XXXXX-XXXX" required></label>
-                        <label for="form-textarea">Mensagem<textarea name="" id="form-textarea" cols="70" rows="10" required></textarea></label>
+                        <label for="form-name">
+                            Nome e sobrenome
+                            <input id="form-name" type="text" required>
+                        </label>
+                        <label for="form-email">
+                            Email
+                            <input id="form-email" type="email" placeholder="seuemail@dominio.com" required>
+                        </label>
+                        <label for="form-phone">
+                            Telefone
+                            <input id="form-phone" type="tel" placeholder="(XX) XXXXX-XXXX" required>
+                        </label>
+                        <label for="form-textarea">
+                            Mensagem
+                            <textarea name="" id="form-textarea" cols="70" rows="10" placeholder="Digite aqui sua mensagem." required></textarea>
+                        </label>
                     </div>
                 </fieldset>
 
+                <fieldset class="radio-inputs">
+                    <div class="container">
+                        <legend>Como prefere nosso contato?</legend>
+                        <label for="radio-email">
+                            <input type="radio" name="radio-box" id="radio-email" checked>
+                            Email
+                        </label>
+                        <label for="radio-phone">
+                            <input type="radio" name="radio-box" id="radio-phone">
+                            Telefone
+                        </label>
+                        <label for="radio-wpp">
+                            <input type="radio" name="radio-box" id="radio-wpp">
+                            Whatsapp
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="select-checkbox">
+                    <div class="container">
+                        <legend>Qual horário prefere ser atendido?</legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                        <label for="checkbox-input">
+                            <input type="checkbox" id="checkbox-input" checked>
+                            Gostaria de receber nossas novidades por email?
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="submit">
+                    <div class="container">
+                        <input type="submit" class="submit-button" value="Enviar formulário">
+                    </div>
+                </fieldset>
+                
             </form>
+
+            <section class="table">
+                <div class="container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horário</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Quarta</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Sexta</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
 
         </main>
 

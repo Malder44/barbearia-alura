@@ -1,4 +1,68 @@
-.main {
-    font-size: 1rem;
+.form {
+    padding: 30px 0 15px;
 }
 
+.text-inputs, .radio-inputs, .select-checkbox {
+    margin: 0 0 10px;
+}
+
+.text-inputs label, .radio-inputs legend, .radio-inputs label, .select-checkbox legend, .select-checkbox label {
+    font-size: 1.3em;
+}
+
+.text-inputs label, .text-inputs input, .text-inputs textarea, .radio-inputs label, .select-checkbox select, .select-checkbox label {
+    display: block;
+}
+
+.text-inputs input, .text-inputs textarea {
+    margin: 15px 0;
+    padding: 10px 15px;
+    width: 60%;
+    font-size: 0.7em;
+}
+
+.radio-inputs legend, .radio-inputs label, .select-checkbox legend, .select-checkbox select, .select-checkbox label {
+    margin: 0 0 15px;
+}
+
+.radio-inputs input, .select-checkbox input {
+    margin: 0 3.5px 0 0;
+}
+
+.select-checkbox select {
+    font-size: 1em;
+}
+
+.submit-button {
+    width: 40%;
+    padding: 22px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.submit-button:hover {
+    transform: translate(1.05em) scale(1.02, 1.1);
+}
+
+.table {
+    padding: 15px 0 40px;
+}
+
+.table th {
+    padding: 20px 30px;
+    border: 1px solid #000;
+    background: #444;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.table td {
+    padding: 14px 30px;
+    border: 1px solid #000;
+    font-size: 1.1em;
+}
