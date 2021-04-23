@@ -88,3 +88,15 @@ h1, h2, h3, .localization p {
 .video > div > iframe {
     margin: 0 20%;
 }
+
+@media screen and (max-width: 480px) {
+
+    .about-barbershop, .localization, .benefits, .video {
+        padding: 30px 0
+    }
+    
+    .about-barbershop p {
+        line-height: 1.3em;
+    }
+
+}

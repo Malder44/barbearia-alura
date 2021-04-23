@@ -71,3 +71,28 @@ body {
     width: 940px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 480px) {
+
+    .header-container, .container, .footer-container {
+        width: 90vw;
+    }
+
+    .header img {
+        margin: 0 calc((90vw - 177px) / 2);
+    }
+
+    .nav-menu {
+        position: static;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+
+    }
+
+    .nav-menu li > a {
+        padding: 0 0 0 5px;
+    }
+
+}
