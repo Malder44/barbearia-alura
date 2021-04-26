@@ -8,6 +8,7 @@
 
 .products-list-itens {
     display: inline-block;
+    vertical-align: top;
     width: 30%;
     box-sizing: border-box;
     padding: 30px 14px;
@@ -55,4 +56,20 @@
     .products-list-itens > img + p {
         height: 50px;
     }
+}
+
+@media screen and (max-width: 850px) {
+    
+    .products-list-itens {
+        margin: 0 1%;
+    }
+
+    .products-list-itens h2 {
+        height: 60px;
+    }
+
+    .products-list-itens > img {
+        width: 99%;
+    }
+
 }

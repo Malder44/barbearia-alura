@@ -96,3 +96,11 @@ body {
     }
 
 }
+
+@media screen and (max-width: 850px) {
+
+    .header-container, .container, .footer-container {
+        width: 90vw;
+    }
+    
+}
