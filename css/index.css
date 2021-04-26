@@ -14,15 +14,15 @@ h1, h2, h3, .localization p {
     padding: 50px 0;
 }
 
-.about-barbershop > div > h1 {
+.about-barbershop h1 {
     font-size: 2.6em;
 }
 
-.about-barbershop > div > p {
+.about-barbershop p {
     padding: 0 0 15px;
 }
 
-.about-barbershop > div > img {
+.about-barbershop img {
     height: 130px;
     float: left;
     margin: 0 20px 0 0;
@@ -32,11 +32,11 @@ h1, h2, h3, .localization p {
     background: linear-gradient(#fff, #777);
 }
 
-.localization > div > h2 {
+.localization h2 {
     font-size: 2em;
 }
 
-.localization > div > p {
+.localization p {
     padding: 0 0 30px;
 }
 
@@ -44,18 +44,25 @@ h1, h2, h3, .localization p {
     background: linear-gradient(#777, #666);
 }
 
-.benefits > div > h3 {
+.benefits h3 {
     font-size: 1.8em;
 }
 
-.benefits-list, .benefits > div > img  {
+.benefits-list, .benefits img {
     display: inline-block;
     vertical-align: top;
 }
 
+.benefits img {
+    width: 40%;
+    margin: 0 2.5% 0 7.5%;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
+
 .benefits-list {
     width: 30%;
-    margin: 0 5% 0 15%;
+    margin: 0 7.5% 0 2.5%;
 }
 
 .benefits-list:first-line {
@@ -63,18 +70,11 @@ h1, h2, h3, .localization p {
 }
 
 .benefits-list li {
-    line-height: 1.8em;
+    line-height: 2.8em;
 }
 
 .benefits-list li:before {
     content: '\2605';
-}
-
-.benefits > div > img {
-    width: 40%;
-    margin: 0 10% 0 0;
-    box-shadow: 10px 10px 10px black;
-    transition: 0.5s;
 }
 
 #benefits-img:hover {
@@ -85,7 +85,7 @@ h1, h2, h3, .localization p {
     background: linear-gradient(#666, #555);
 }
 
-.video > div > iframe {
+.video iframe {
     margin: 0 20%;
 }
 
@@ -94,9 +94,43 @@ h1, h2, h3, .localization p {
     .about-barbershop, .localization, .benefits, .video {
         padding: 30px 0
     }
+
+    .about-barbershop {
+        background: linear-gradient(#fff 40%, #CCC);
+    }
     
     .about-barbershop p {
         line-height: 1.3em;
+    }
+
+    .about-barbershop img {
+        margin: 0 20px 10px 0;
+    }
+
+    .localization {
+        background: linear-gradient(#CCC, #777);
+    }
+
+    .benefits-list, .benefits img {
+        display: block;
+    }
+
+    .benefits img, .video iframe {
+        width: 100%;
+        margin: 0;
+    }
+
+    .benefits img {
+        box-shadow: 0 0 15px 8px black;
+    }
+
+    .benefits-list {
+        width: 70%;
+        margin: 30px calc((337.5px - 219.375px) / 2) 0;
+    }
+
+    .benefits-list li {
+        line-height: 1.8em;
     }
 
 }
