@@ -82,4 +82,8 @@
         margin: 0 calc((337.5px - 276px) / 2);
     }
 
+    .submit-button:hover {
+        transform: scale(1.05);
+    }
+
 }
