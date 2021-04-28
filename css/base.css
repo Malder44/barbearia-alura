@@ -6,15 +6,21 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+.header, .main, .footer {
     font-size: 1rem;
+}
+
+.header {
     background: #bbb;
     padding: 20px 0;
 }
 
-.header-container {
+.header-container, .footer-container, .container {
     width: 940px;
     margin: 0 auto;
+}
+
+.header-container {
     position: relative;
 }
 
@@ -45,19 +51,12 @@ body {
     color: #197be8;
 }
 
-.main {
-    font-size: 1rem;
-}
-
 .footer {
-    font-size: 1rem;
     background: url(../images/bg.jpg);
     padding: 40px 0;
 }
 
 .footer-container {
-    width: 940px;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -65,11 +64,6 @@ body {
     color: #fff;
     font-size: 0.8em;
     padding: 10px 0 0 0;
-}
-
-.container {
-    width: 940px;
-    margin: 0 auto;
 }
 
 @media screen and (max-width: 480px) {
