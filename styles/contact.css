@@ -1,0 +1,108 @@
+fieldset {
+    border: none;
+}
+
+.contact {
+    padding: 6vh 30vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.form__text-inputs,
+.form__radio-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.form__text-inputs__label,
+.form__radio-inputs__legend,
+.form__radio-inputs__label,
+.form__select__legend,
+.form__checkbox__label {
+    font-size: 1.3rem;
+}
+
+.form__text-inputs__input,
+.form__text-inputs__textarea {
+    padding: 2vh;
+    width: 60%;
+    font-size: 0.9rem;
+}
+
+.form__radio-inputs__legend,
+.form__select__legend {
+    margin: 0 0 2vh;
+}
+
+.form__radio-inputs__input,
+.form__checkbox__input {
+    margin: 0 1vh 0 0;
+}
+
+.form__select__select {
+    font-size: 0.9rem;
+}
+
+.form__submit__button {
+    width: 40%;
+    padding: 3vh 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #FFA500;
+    border: none;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.form__submit__button:hover {
+    transform: translate(1.05rem) scale(1.02, 1.1);
+}
+
+.contact__table {
+    padding: 6vh 0 0;
+}
+
+.contact__table__table {
+    padding: 15px 0 40px;
+}
+
+.table__head__cell {
+    padding: 3vh 4vh;
+    border: 1px solid #000000;
+    background: #444444;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+.table__body__cell {
+    padding: 2vh 4vh;
+    border: 1px solid #000000;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    .text-inputs input, .text-inputs textarea, .submit-button {
+        width: 100%;
+        
+    }
+
+    .text-inputs input, .text-inputs textarea {
+        box-sizing: border-box;
+    }
+
+    .table table {
+        margin: 0 calc((337.5px - 276px) / 2);
+    }
+
+    .submit-button:hover {
+        transform: scale(1.05);
+    }
+
+}

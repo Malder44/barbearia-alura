@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+        <title>Contato - Barbearia Alura</title>
+    </head>
+    <body> 
+        <header class="header">   
+            <img alt="Logo da Barbearia Alura" src="assets/logo.png">
+            <nav class="header__nav">
+                <a class="header__nav__links" href="index.html">Home</a>
+                <a class="header__nav__links" href="products.html">Produtos</a>
+                <a class="header__nav__links" href="contact.html">Contato</a>
+            </nav>
+        </header>
+        <main class="contact">
+            <form class="form">
+                <fieldset class="text-inputs form__text-inputs">
+                    <label class="form__text-inputs__label" for="text-inputs__name">
+                        Nome e sobrenome
+                    </label>
+                    <input class="form__text-inputs__input" id="text-inputs__name" type="text" required>
+                    <label class="form__text-inputs__label" for="text-inputs__email">
+                        Email
+                    </label>
+                    <input class="form__text-inputs__input" id="text-inputs__email" type="email" placeholder="seuemail@dominio.com" required>
+                    <label class="form__text-inputs__label" for="text-inputs__phone">
+                        Telefone
+                    </label>
+                    <input class="form__text-inputs__input" id="text-inputs__phone" type="tel" placeholder="(XX) XXXXX-XXXX" required>
+                    <label class="form__text-inputs__label" for="text-inputs__textarea">
+                        Mensagem
+                    </label>
+                    <textarea class="form__text-inputs__textarea" id="text-inputs__textarea" cols="70" rows="10" placeholder="Digite aqui sua mensagem." required></textarea>
+                </fieldset>
+                <fieldset class="radio-inputs form__radio-inputs">
+                    <legend class="form__radio-inputs__legend">Como prefere nosso contato?</legend>
+                    <label class="form__radio-inputs__label" for="radio-inputs__email">
+                        <input class="form__radio-inputs__input" type="radio" name="radio-box" id="radio-inputs__email" checked>
+                        Email
+                    </label>
+                    <label class="form__radio-inputs__label" for="radio-inputs__phone">
+                        <input class="form__radio-inputs__input" type="radio" name="radio-box" id="radio-inputs__phone">
+                        Telefone
+                    </label>
+                    <label class="form__radio-inputs__label" for="radio-inputs__whatsapp">
+                        <input class="form__radio-inputs__input" type="radio" name="radio-box" id="radio-inputs__whatsapp">
+                        Whatsapp
+                    </label>
+                </fieldset>
+                <fieldset class="select-checkbox form__select">
+                    <legend class="form__select__legend">Qual horário prefere ser atendido?</legend>
+                    <select class="form__select__select">
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                <fieldset class="form__checkbox">
+                    <label class="form__checkbox__label" for="form__checkbox__checkbox">
+                        <input class="form__checkbox__input" type="checkbox" id="form__checkbox__checkbox" checked>
+                        Gostaria de receber nossas novidades por email?
+                    </label>
+                </fieldset>
+                <fieldset class="submit form__submit">
+                    <div class="container">
+                        <input type="submit" class="form__submit__button" value="Enviar formulário">
+                    </div>
+                </fieldset>
+            </form>
+            <section class="contact__table">
+                <div class="container">
+                    <table class="contact__table__table">
+                        <thead>
+                            <tr>
+                                <th class="table__head__cell">Dia</th>
+                                <th class="table__head__cell">Horário</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="table__body__cell">Segunda</td>
+                                <td class="table__body__cell">8h - 20h</td>
+                            </tr>
+                            <tr>
+                                <td class="table__body__cell">Quarta</td>
+                                <td class="table__body__cell">8h - 20h</td>
+                            </tr>
+                            <tr>
+                                <td class="table__body__cell">Sexta</td>
+                                <td class="table__body__cell">8h - 20h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <img src="assets/logo-branco.png" alt="Logo em branco da Barbearia Alura">
+            <p class="footer__text">&copy;Copyright Barbearia Alura - 2019</p>
+        </footer>
+    </body>
+</html>

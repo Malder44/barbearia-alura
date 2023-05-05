@@ -1,0 +1,147 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__about {
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    padding: 8vh 30vh 4vh;
+    align-items: center;
+}
+
+.home__about__heading {
+    font-size: 2rem;
+}
+
+.home__about__content {
+    display: flex;
+    gap: 6vh;
+    align-items: center;
+}
+
+.about__content__image {
+    width: 20%;
+}
+
+.about__content__texts {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.home__address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    padding: 4vh 30vh;
+    background: linear-gradient(#FFFFFF, #777777);
+}
+
+.home__address__heading {
+    font-size: 1.9rem;
+}
+
+.home__address__text {
+    font-size: 1.2rem;
+}
+
+.home__benefits {
+    padding: 4vh 30vh;
+    gap: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#777777, #666666);
+}
+
+.home__benefits__heading {
+    font-size: 1.8rem;
+}
+
+.home__benefits__content {
+    display: flex;
+    gap: 10vh;
+}
+
+.benefits__content__image {
+    width: 50%;
+    box-shadow: 10px 10px 10px #000000;
+    transition: 0.5s;
+    margin: 20px;
+}
+
+.benefits__content__image:hover {
+    opacity: 0.35;
+}
+
+.benefits__content__list {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    list-style-position: inside;
+}
+
+.benefits__content__list::first-line {
+    font-weight: bold;
+}
+
+.home__video {
+    padding: 4vh 30vh 8vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#666666, #555555);
+}
+
+@media screen and (max-width: 480px) {
+    
+    .about-barbershop, .localization, .benefits, .video {
+        padding: 30px 0
+    }
+
+    .about-barbershop {
+        background: linear-gradient(#fff 40%, #CCC);
+    }
+    
+    .about-barbershop p {
+        line-height: 1.3em;
+    }
+
+    .about-barbershop img {
+        margin: 0 20px 10px 0;
+    }
+
+    .localization {
+        background: linear-gradient(#CCC, #777);
+    }
+
+    .benefits-list, .benefits img {
+        display: block;
+    }
+
+    .benefits img, .video iframe {
+        width: 100%;
+        margin: 0;
+    }
+
+    .benefits img {
+        box-shadow: 0 0 15px 8px black;
+    }
+
+    .benefits-list {
+        width: 70%;
+        margin: 30px calc((337.5px - 219.375px) / 2) 0;
+    }
+
+    .benefits-list li {
+        line-height: 1.8em;
+    }
+
+}
